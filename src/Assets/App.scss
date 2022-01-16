@@ -1,0 +1,28 @@
+.container {
+  .Header {
+    width: 90%;
+    background-color: green;
+    padding: 2rem;
+    margin: 3rem;
+    text-align: center;
+    background:url('./logo.jpg') ;
+    height: 5rem;
+  }
+
+  .section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+    .card {
+      background-color: orangered;
+      padding: 2rem;
+      border: double gold;
+      border-radius: 1rem;
+    }
+
+    .part-6 {
+      background-color: orange;
+    }
+  }
+}
